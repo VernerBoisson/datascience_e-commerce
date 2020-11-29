@@ -17,7 +17,7 @@ et en extraire une preuve de rentabilité pour l'entreprise.
 
 ## Présentation de l'équipe
 
-Dans cette mise en situation,  **Antoine NICOLEAU**, **Maxime LENOIR** et **Verner BOISSON** tous trois étudiants 
+Dans cette mise en situation,  **Antoine NICOLLEAU**, **Maxime LENOIR** et **Verner BOISSON** tous trois étudiants 
 en Mastère 1 Expert en Intelligence Artificielle à **Ynov Bordeaux** jouent le rôle de trois
 expert en intelligence artificielle venant de l'entreprise **"Oh Djadja"**.
 
