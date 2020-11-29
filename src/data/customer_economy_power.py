@@ -19,6 +19,6 @@ df_agg = df_agg.sort_values(['eco_score'], ascending=False)
 
 #Les 5% de consommateur ayant le plus de pouvoir économique
 df_top = pd.DataFrame(df_agg['eco_score'][:int(df_agg.shape[0] * 5 / 100)])
-print(df_top.head(10).to_markdown())
+print(df_top.to_markdown())
 
 

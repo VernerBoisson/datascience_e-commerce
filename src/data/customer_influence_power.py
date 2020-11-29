@@ -30,4 +30,6 @@ df_top = pd.DataFrame(df_agg['inf_score'][:int(df_agg.shape[0]*5/100)])
 #Les 5% de consommateur ayant le moins de pouvoir d'influence
 df_bot = pd.DataFrame(df_agg['inf_score'][-int(df_agg.shape[0]*5/100):])
 
-print(df_top.head(10).to_markdown())
+print(df_top.to_markdown())
+print(df_bot.to_markdown())
+

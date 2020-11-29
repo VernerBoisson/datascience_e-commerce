@@ -23,7 +23,7 @@ list_consumer = df_customer_unique.index
 df = df[df.customer_unique_id.isin(list_consumer)]
 df = df[df.product_category_name.isin(category_list)]
 
-fig = plt.figure(figsize=(20, 20))
+fig = plt.figure(figsize=(10, 10))
 ax = fig.add_subplot()
 sns.scatterplot(data=df, x='customer_unique_id', y='product_category_name')
 plt.xticks(rotation=90)
@@ -32,5 +32,5 @@ plt.xlabel('Consommateur')
 ax.set_yticks([])
 ax.set_xticks([])
 plt.title("Répartition des articles par rapport aux consommateurs")
-plt.savefig('../../params/plot/suggestion/customer_category.png')
+plt.savefig('../../params/plot/suggestion/customer_category_3.png')
 plt.show()

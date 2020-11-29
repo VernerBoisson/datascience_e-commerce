@@ -23,7 +23,7 @@ product_list = product_count.index.tolist()
 df = df[df.customer_unique_id.isin(list_consumer)]
 df = df[df.product_id.isin(product_list)]
 
-fig = plt.figure(figsize=(20,20))
+fig = plt.figure(figsize=(10,10))
 ax = fig.add_subplot()
 sns.scatterplot(data=df, x='customer_unique_id', y='product_id')
 plt.xticks(rotation=90)
